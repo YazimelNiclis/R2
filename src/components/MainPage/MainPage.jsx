@@ -1,8 +1,7 @@
-import React from "react";
-import "../../App.css";
+import "./mainPage.css";
 function MainPage() {
   return (
-    <div>
+    <>
       <article>
         <h1>Acerca de nosotros</h1>
         <p>
@@ -59,7 +58,7 @@ function MainPage() {
         </p>
         <br />
       </aside>
-    </div>
+    </>
   );
 }
 
